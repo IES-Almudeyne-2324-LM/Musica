@@ -1,5 +1,4 @@
-Título del Proyecto
-Blog de música
+BLOG DE NOTICIAS DE MÚSICA
 
 Descripción 🚀
 Proyecto de un blog con noticias reales y actuales del mundo de la música, en el que se abarcará cualquier tipo de música.
@@ -16,7 +15,9 @@ hasta finalizar
 Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
 
 Construido con 🛠️
-Menciona las herramientas que utilizaste para crear tu proyecto
+Visual Studio COde
+Git 
+Github
 
 Dropwizard - El framework web usado
 Maven - Manejador de dependencias
@@ -28,10 +29,8 @@ Versionado 📌
 Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
 
 Autores ✒️
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-
 Sandra Moriana 
-Mari Carmen 
+Mari Carmen Ruiz Sánchez 
 Manuel León Fernández
 
 
