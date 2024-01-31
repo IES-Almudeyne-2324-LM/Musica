@@ -16,9 +16,9 @@ Para visualizar nuestra web solo se necesita un navegador que soporte el estánd
 
 ## Construido con 🛠️
 
-- <a href="https://code.visualstudio.com/">Visual Studio Code</a> 
-- <a href="https://git-scm.com/">Git</a> 
-- <a href="https://github.com/">GitHub</a>
+- <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> 
+- <a href="https://git-scm.com/" target="_blank">Git</a> 
+- <a href="https://github.com/" target="_blank">GitHub</a>
 
 
 ## Versionado 📌
