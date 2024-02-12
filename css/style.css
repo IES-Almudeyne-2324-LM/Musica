@@ -49,24 +49,50 @@ article {
 */
 
 
-/* Estilos para los formatos de encabezados 
+/* Estilos para los formatos de encabezados */
 h1 {
-    color: blue;
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(120, 33, 24);
+    text-align: center;
+}
+ 
+h2 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(140, 38, 38);
+    text-align: center;
+    
+}
+
+h3 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(140, 38, 38);
     text-align: center;
 }
 
-h2 {
-    color: green;
-}
-*/
 
 
-/* Estilos para los párrafos 
+/* Estilos para los párrafos */
 p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: 'Reboto', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
 }
-*/
+
+
+/* Estilos para la clase "noticia" */
+.noticia {
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+}
 
 
 /* Estilos para enlaces 
