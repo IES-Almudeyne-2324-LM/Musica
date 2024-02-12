@@ -1,0 +1,115 @@
+/* Estilos para el cuerpo de la página 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+/* Estilos para el encabezado 
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Estilos para la barra de navegación 
+nav {
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Estilos para el pie de página 
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el contenido principal 
+main {
+    padding: 20px;
+}
+
+/* Estilos para artículos
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+*/
+
+
+/* Estilos para los formatos de encabezados 
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+*/
+
+
+/* Estilos para los párrafos 
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+*/
+
+
+/* Estilos para enlaces 
+a {
+    color: #007bff; // Azul
+    text-decoration: none; // Sin subrayado
+}
+*/
+
+
+/* Estilos para las imágenes
+img {
+    max-width: 100%; // Imágenes se ajustan al contenedor
+    height: auto; // Proporcional al ancho
+    display: block; // Evita espacio adicional debajo de las imágenes
+    margin: 0 auto; // Centra la imagen horizontalmente
+}
+*/
+
+
+/* Estilos para las listas 
+ul {
+    list-style-type: disc; // Marcador de viñetas
+}
+*/
+
+
+/* Estilos para tablas 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+// Estilos para celdas de tabla
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+// Estilo para la cabecera de la tabla
+th {
+    background-color: #f2f2f2;
+}
+
+*/
