@@ -102,21 +102,23 @@ p {
 .centrado {
     display:flex; 
     justify-content: center; 
-    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0px; 
+}
+
+/* Estilos para la clase "noticia" */
+.noticia {
+    background-color: rgb(230,230,230);
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
     padding: 10px 0px; 
 }
 
 /* Estilos para la clase "noticiaIndex" */
-.noticia {
-    background-color: rgb(220,220,220);
-    max-width: 800px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centrar horizontalmente el contenedor */
-}
-
-/* Estilos para la clase "noticia" */
 .noticiaIndex {
-    background-color: rgb(220,220,220);
-    max-width: 800px; /* Ancho máximo del contenedor */
+    background-color: rgb(230,230,230);
+    max-width: 840px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente el contenedor */
     padding: 20px; 
 }
