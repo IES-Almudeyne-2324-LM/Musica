@@ -1,8 +1,7 @@
 /* Estilos para el cuerpo de la página 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
+    background-color: rgb(242,240,228);
+    margin: 50;
     padding: 0;
 }
 */
@@ -10,12 +9,12 @@ body {
 
 /* Estilos para el encabezado 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #020202;
+    color: rgb(58, 18, 107);
     padding: 20px;
     text-align: center;
 }
-
+*/
 
 /* Estilos para la barra de navegación 
 nav {
@@ -49,12 +48,20 @@ article {
 */
 
 
-/* Estilos para los formatos de encabezados */
+/* Estilos para encabezados */
+#rock {
+    background-color: rgb(128, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Estilos para textos de encabezados */
 h1 {
     font-family: 'Reboto', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: rgb(120, 33, 24);
     text-align: center;
 }
  
@@ -62,7 +69,6 @@ h2 {
     font-family: 'Reboto', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    color: rgb(140, 38, 38);
     text-align: center;
     
 }
@@ -71,7 +77,6 @@ h3 {
     font-family: 'Reboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(140, 38, 38);
     text-align: center;
 }
 
@@ -86,13 +91,24 @@ p {
 }
 
 
+/* Estilos para la clase "centrado" */
+.centrado {
+    display:flex; 
+    justify-content: center;    
+}
+
 /* Estilos para la clase "noticia" */
 .noticia {
     justify-content: center;
     align-items: center;
     max-width: 800px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente el contenedor */
+    padding: 10px;
 }
+
+
+
+
 
 
 /* Estilos para enlaces 
