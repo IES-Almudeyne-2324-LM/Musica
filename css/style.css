@@ -107,11 +107,20 @@ p {
     padding: 10px; 
 }
 
-/* Estilos para la clase "noticia" */
+/* Estilos para la clase "noticiaIndex" */
 .noticia {
-    background-color: rgb(240,240,240);
+    background-color: rgb(220,220,220);
     max-width: 800px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente el contenedor */
+}
+
+/* Estilos para la clase "noticia" */
+.noticiaIndex {
+    background-color: rgb(220,220,220);
+    
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+    padding: 20px; 
 }
 
 
@@ -119,10 +128,10 @@ p {
 
 
 
-/* Estilos para enlaces 
+/* Estilos para enlaces */
 a {
-    color: #007bff; // Azul
-    text-decoration: none; // Sin subrayado
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
 }
 */
 
