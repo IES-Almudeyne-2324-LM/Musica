@@ -103,8 +103,6 @@ p {
     display:flex; 
     justify-content: center; 
     text-align: center;
-    margin: auto;  
-    max-width: 100%;
     padding: 10px 0px; 
 }
 
