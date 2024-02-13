@@ -1,10 +1,8 @@
-/* Estilos para el cuerpo de la página 
+/* Estilos para el cuerpo de la página */
 body {
-    background-color: rgb(242,240,228);
-    margin: 50;
-    padding: 0;
+    background-color: rgb(240,240,240);
 }
-*/
+
 
 
 /* Estilos para el encabezado 
@@ -96,6 +94,7 @@ p {
 .centrado {
     display:flex; 
     justify-content: center; 
+    text-align: center;
     margin: auto;  
     padding: 10px; 
 }
@@ -105,7 +104,6 @@ p {
     background-color: rgb(240,240,240);
     max-width: 800px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente el contenedor */
-    padding: 20px 80px;
 }
 
 
