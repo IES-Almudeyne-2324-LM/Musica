@@ -55,6 +55,13 @@ article {
     padding: 10px;
 }
 
+#rap {
+    background-color: rgb(131, 187, 164);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* Estilos para textos de encabezados */
 h1 {
