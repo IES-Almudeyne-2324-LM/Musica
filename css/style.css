@@ -1,10 +1,8 @@
-/* Estilos para el cuerpo de la página 
+/* Estilos para el cuerpo de la página */
 body {
-    background-color: rgb(242,240,228);
-    margin: 50;
-    padding: 0;
+    background-color: rgb(240,240,240);
 }
-*/
+
 
 
 /* Estilos para el encabezado 
@@ -89,22 +87,24 @@ p {
     font-size: 15px;
     color: rgb(0, 0, 0);
     text-align: justify;
+    padding: 10px;
 }
 
 
 /* Estilos para la clase "centrado" */
 .centrado {
     display:flex; 
-    justify-content: center;    
+    justify-content: center; 
+    text-align: center;
+    margin: auto;  
+    padding: 10px; 
 }
 
 /* Estilos para la clase "noticia" */
 .noticia {
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(240,240,240);
     max-width: 800px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente el contenedor */
-    padding: 10px;
 }
 
 
