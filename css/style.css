@@ -62,6 +62,13 @@ article {
     padding: 10px;
 }
 
+#flamenco {
+    background-color: rgb(209, 196, 6);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* Estilos para textos de encabezados */
 h1 {
