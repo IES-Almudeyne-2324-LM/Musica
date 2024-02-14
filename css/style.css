@@ -43,7 +43,7 @@ footer {
 }
 
 
-/* Estilos para encabezados por secciones */
+/* Estilos ID para encabezados por secciones */
 #rock {
     background-color: rgb(128, 0, 0);
     color: rgb(255, 255, 255);
@@ -112,7 +112,7 @@ p {
     padding: 10px;
 }
 
-/*Estilos para el contenedor y la imagen. Ambos responsive*/
+/*Estilos para el contenedor, imagen y video. Todos responsive*/
 
 figure {
     margin: 0 auto;
@@ -128,6 +128,11 @@ picture{
 img {
     max-width: 100%;
 }
+
+video {
+    max-width: 100%;
+}
+
 
 
 /* Estilos para la clase "noticia" */
@@ -147,22 +152,19 @@ img {
 }
 
 
+/* Estilos para la clase "centrado" */
+.centrado {
+    display:flex;
+    justify-content: center;
+}
+
+
+
 /* Estilos para enlaces */
 a {
     color: rgb(0, 0, 0); 
     text-decoration: none;
 }
-
-
-
-/* Estilos para las imágenes
-img {
-    max-width: 100%; // Imágenes se ajustan al contenedor
-    height: auto; // Proporcional al ancho
-    display: block; // Evita espacio adicional debajo de las imágenes
-    margin: 0 auto; // Centra la imagen horizontalmente
-}
-*/
 
 
 /* Estilos para las listas */
