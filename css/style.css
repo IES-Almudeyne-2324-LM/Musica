@@ -7,8 +7,8 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: #0202021e;
-    color: rgb(58, 18, 107);
+    background-color: black;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -35,8 +35,8 @@ nav {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #7b7171;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px;
     text-align: center;
     margin: 0 auto;
@@ -84,7 +84,7 @@ article {
 h1 {
     font-family: 'Reboto', sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 38px;
     text-align: center;
 }
  
@@ -157,10 +157,6 @@ p {
 }
 
 
-
-
-
-
 /* Estilos para enlaces */
 a {
     color: rgb(0, 0, 0); 
@@ -186,22 +182,22 @@ ul {
 }
 
 
-/* Estilos para tablas 
+/* Estilos para tablas */
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #f2f2f2b7;
 }
 
-// Estilos para celdas de tabla
+/* Estilos para celdas de tabla */
 th, td {
     padding: 8px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
-// Estilo para la cabecera de la tabla
-th {
-    background-color: #f2f2f2;
+/* Estilo para la cabecera de la tabla */
+thead {
+    background-color: #f2f2f2b7;
 }
 
-*/
