@@ -176,6 +176,7 @@ ul {
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #f2f2f2b7;
 }
 
 /* Estilos para celdas de tabla */
@@ -186,7 +187,7 @@ th, td {
 }
 
 /* Estilo para la cabecera de la tabla */
-th {
-    background-color: #f2f2f2;
+thead {
+    background-color: #f2f2f2b7;
 }
 
