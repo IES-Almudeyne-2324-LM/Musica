@@ -112,15 +112,14 @@ p {
     padding: 10px;
 }
 
+/*Estilos para el contenedor y la imagen. Ambos responsive*/
 
-/* Estilos para la clase "centrado" */
-.centrado {
-    display:flex; 
-    justify-content: center; 
+figure {
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
-/* Estilos para la clase "adaptativo" */
-.adaptativo {
+img {
     max-width: 100%;
 }
 
