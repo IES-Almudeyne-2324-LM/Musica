@@ -119,6 +119,12 @@ figure {
     padding: 0 auto;
 }
 
+picture{
+    display: flex;
+    justify-content: center;
+    
+}
+
 img {
     max-width: 100%;
 }
