@@ -59,7 +59,7 @@ footer {
 }
 
 #flamenco {
-    background-color: rgb(209, 196, 6);
+    background-color: rgb(95, 95, 95);
     color: black;
     text-align: center;
     padding: 10px;
@@ -131,6 +131,12 @@ img {
 
 video {
     max-width: 100%;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+
 }
 
 
