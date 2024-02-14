@@ -4,7 +4,6 @@ body {
 }
 
 
-
 /* Estilos para el encabezado */
 header {
     background-color: black;
@@ -12,7 +11,6 @@ header {
     padding: 20px;
     text-align: center;
 }
-
 
 /*Estilos para la barra de navegación */
 nav {
@@ -33,6 +31,7 @@ nav {
     font-size: 100;
 }
 
+
 /* Estilos para el pie de página */
 footer {
     background-color: black;
@@ -42,22 +41,8 @@ footer {
     margin: 0 auto;
 }
 
-/* Estilos para el contenido principal 
-main {
-    padding: 20px;
-}
 
-/* Estilos para artículos
-article {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-}
-*/
-
-
-/* Estilos para encabezados */
+/* Estilos para encabezados por secciones */
 #rock {
     background-color: rgb(128, 0, 0);
     color: rgb(255, 255, 255);
@@ -80,7 +65,7 @@ article {
 }
 
 
-/* Estilos para textos de encabezados */
+/* Estilos para textos de "encabezado" */
 h1 {
     font-family: 'Reboto', sans-serif;
     font-weight: bold;
@@ -110,11 +95,11 @@ h4 {
     text-align: center;
 }
 
+
 /* Estilos para la barra separadora en index */
 hr {
     width: 50%;
 }
-
 
 
 /* Estilos para los párrafos */
@@ -126,6 +111,12 @@ p {
     padding: 10px;
 }
 
+
+/* Estilos para imágenes adaptadas al contenedor */
+img {
+    max-width: 100%;
+    margin: 0 auto; 
+}
 
 /* Estilos para la clase "centrado" */
 .centrado {
