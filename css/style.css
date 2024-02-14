@@ -28,7 +28,7 @@ nav {
     transform: scale(1.1);
 }
 .nav-links a{
-    font-size: 100;
+    font-size: 100px;
     
 }
 
@@ -115,7 +115,7 @@ p {
 
 figure {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 picture{
