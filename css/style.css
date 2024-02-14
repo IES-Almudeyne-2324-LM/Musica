@@ -121,6 +121,7 @@ p {
 /* Estilos para la clase "adaptativo" */
 .adaptativo {
     max-width: 100%;
+    margin: 0 auto;
 }
 
 
