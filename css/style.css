@@ -20,15 +20,18 @@ nav {
     text-align: center;
     list-style: none;   
 }
+
 .nav-links li{
     display:inline-block;
-    padding: 0 10px;
-}
+    padding: 0px 10px;
+ }
+
+
 .nav-links li:hover{
     transform: scale(1.1);
 }
 .nav-links a{
-    font-size: 100px;
+    font-size: 10px;
     
 }
 
