@@ -112,11 +112,11 @@ p {
 }
 
 
-/* Estilos para imágenes adaptadas al contenedor */
+/* Estilos para imágenes adaptadas al contenedor 
 img {
     max-width: 100%;
     margin: 0 auto;
-}
+}   */
 
 /* Estilos para la clase "centrado" */
 .centrado {
