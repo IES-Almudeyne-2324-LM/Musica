@@ -170,6 +170,20 @@ a {
     color: rgb(0, 0, 0); 
     text-decoration: none;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+aside{
+    width: 5%; /*Ancho del aside*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(3, 187, 233);  /*color del fondo*/
+    padding: 0%;  /*Espacio del interior*/
+    box-sizing: border-box; /*Relleno y borde en el tamaño total*/
+    
+}
 
 
 /* Estilos para las listas */
