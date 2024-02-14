@@ -25,7 +25,7 @@ nav {
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #e3dede4a;
+    background-color: #666;
     color: black;
     padding: 10px;
     text-align: center;
@@ -93,6 +93,13 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
 
 
 /* Estilos para los párrafos */
@@ -157,11 +164,11 @@ img {
 */
 
 
-/* Estilos para las listas 
+/* Estilos para las listas */
 ul {
-    list-style-type: disc; // Marcador de viñetas
+    list-style-type: disc; /* Marcador de viñetas */
+    margin: 0 auto;
 }
-*/
 
 
 /* Estilos para tablas 
