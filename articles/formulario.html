@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow">
     <meta name="description" content="Formulario de datos y suscripción">
-    <meta name="author" content="Mari Carmen Ruiz Sanchez, Sandra Moriana Herrera y Manuel León Fernández"> 
-    <meta name="keywords" content="Formulario,suscripción, noticias, múscia, conciertos"> 
-    <link rel ="icon" href="../icons/icono.png" type="image/png" sizes="16x16">
+    <meta name="author" content="Mari Carmen Ruiz Sanchez, Sandra Moriana Herrera y Manuel León Fernández">
+    <meta name="keywords" content="Formulario,suscripción, noticias, múscia, conciertos">
+    <link rel="icon" href="../icons/icono.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="../css/style.css">
     <title>Formulario</title>
 </head>
@@ -15,73 +16,95 @@
 <body>
 
     <header id="form">
-        <h1>Formulario de contacto y suscripción</h1> 
+        <h1>Formulario de contacto y suscripción</h1>
     </header>
-   
+
     <main>
-        <form id="formulario" name="formulario_suscripcion" action="mruisan293@iesalmudeyne.es" method="post" target="_blank" enctype="text/plain" class="formulario">
-    
+        <form id="formulario" name="formulario_suscripcion" action="mruisan293@iesalmudeyne.es" method="post"
+            target="_blank" enctype="text/plain" class="formulario">
+
             <fieldset>
                 <legend>Datos Personales</legend>
                     <label for="clave">Contraseña:</label>
                     <input type="password" name="clave" id="clave" size="8" autocomplete="on" autofocus maxlength="10" minlength="6" required >
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br>
+
+                <label for="UserName">UserName</label>
+                <input type="text" id="UserName" name="UserName" pattern="[a-zA-Z0-9]+"
+                    placeholder="Solo letras y números"><br>
+
+                <label for="correo">Indique su correo:</label>
+                <input type="email" name="correo" id="correo" size="50" placeholder="correo@dominio.com/es" required>
+
+
+
             </fieldset>
             <br>
             <fieldset>
                 <legend>Preferencias Musicales</legend>
-                <form action="#" method="get" target="_blank">
 
-                    <label for="Lugar">Seleccione su lugar</label><br>
-            
-                    <select name="Lugar" id="Lugar">
-            
-                        <option value="ov">Lugares</option>
-            
-                        <optgroup label="Castilla y la Mancha">
-            
-                            <option value="cr">Ciudad Real</option>
-                        </optgroup>
-            
-                        <optgroup label="Andalucía">
-            
-                            <option value="se">Sevilla</option>
-                            <option value="ca">Cádiz</option>
-                            <option value="hu">Huelva</option>
-                        </optgroup>
+                <label for="range">Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
 
-                        <optgroup label="Estados Unidos">
-                            <option value="NY">Nueva York</option>
-                        </optgroup>
+                <label name="Flamenco"><i><strong>Flamenco</strong></i></label><br>
+                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
+                <label name="Rap"><i><strong>Rap</strong></i></label><br>
+                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
+                <label name="Rock"><i><strong>Rock</strong></i></label><br>
+                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
 
-                        <optgroup label="Madrid">
-                            <option value="M">Madrid</option>
-                        </optgroup>
+                <label for="Lugar">Seleccione su lugar:</label><br>
 
-                        <optgroup label="Francia">
-                            <option value="PR">París</option>
-                        </optgroup>
+                <select name="Lugar" id="Lugar">
 
-                        <optgroup label="Bélgica">
-                            <option value="br">Bruselas</option>
-                        </optgroup>
+                    <option value="ov">Lugares</option>
 
-                        <optgroup label="Irlanda">
-                            <option value="D">Dublín</option>
-                        </optgroup>
+                    <optgroup label="Castilla y la Mancha">
 
-                        <optgroup label="Reino Unido">
-                            <option value="L">Londres</option>
-                        </optgroup>
-                        
-                        <optgroup label="Alemania">
-                            <option value="B">Berlín</option>
-                        </optgroup>
+                        <option value="cr">Ciudad Real</option>
+                    </optgroup>
 
-                        </optgroup>
-            
-                    </select>
-            
-            </form> 
+                    <optgroup label="Andalucía">
+
+                        <option value="se">Sevilla</option>
+                        <option value="ca">Cádiz</option>
+                        <option value="hu">Huelva</option>
+                    </optgroup>
+
+                    <optgroup label="Estados Unidos">
+                        <option value="NY">Nueva York</option>
+                    </optgroup>
+
+                    <optgroup label="Madrid">
+                        <option value="M">Madrid</option>
+                    </optgroup>
+
+                    <optgroup label="Francia">
+                        <option value="PR">París</option>
+                    </optgroup>
+
+                    <optgroup label="Bélgica">
+                        <option value="br">Bruselas</option>
+                    </optgroup>
+
+                    <optgroup label="Irlanda">
+                        <option value="D">Dublín</option>
+                    </optgroup>
+
+                    <optgroup label="Reino Unido">
+                        <option value="L">Londres</option>
+                    </optgroup>
+
+                    <optgroup label="Alemania">
+                        <option value="B">Berlín</option>
+                    </optgroup>
+
+                    </optgroup>
+
+                </select>
+
+
             </fieldset>
             <br>
             <fieldset>
