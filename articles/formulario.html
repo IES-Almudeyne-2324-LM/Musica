@@ -20,23 +20,26 @@
     </header>
 
     <main>
-        <form id="formulario" name="formulario_suscripcion" action="mruisan293@iesalmudeyne.es" method="post"
+        <form id="formulario" name="formulario_suscripcion" action="mailto:mruisan293@iesalmudeyne.es" method="post"
             target="_blank" enctype="text/plain" class="formulario">
 
             <fieldset>
                 <legend>Datos Personales</legend>
-                    <label for="clave">Contraseña:</label>
-                    <input type="password" name="clave" id="clave" size="8" autocomplete="on" autofocus maxlength="10" minlength="6" required >
 
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre"><br>
+                <input type="text" name="nombre" id="nombre" required><br>
 
                 <label for="UserName">UserName</label>
                 <input type="text" id="UserName" name="UserName" pattern="[a-zA-Z0-9]+"
-                    placeholder="Solo letras y números"><br>
+                    placeholder="Solo letras y números" required><br>
 
-                <label for="correo">Indique su correo:</label>
-                <input type="email" name="correo" id="correo" size="50" placeholder="correo@dominio.com/es" required>
+                <label for="clave">Contraseña:</label>
+                <input type="password" name="clave" id="clave" size="8" autocomplete="on" autofocus maxlength="10"
+                    minlength="6" required> <br>
+
+                <label for="email">Indique su correo electronico:</label>
+                <input type="email" name="email" id="email" size="50" placeholder="correo@dominio.com/es" required> 
+                
 
 
 
@@ -113,7 +116,7 @@
             <br>
             <fieldset>
                 <legend>Suscríbase a los géneros que le interesen:</legend>
-                
+
                 <input type="checkbox" name="flamenco" id="flamenco" value="flamenco">
                 <label for="flamenco">Flamenco</label>
                 <br>
@@ -140,9 +143,15 @@
             <fieldset>
                 <legend>Acepta los términos</legend>
             </fieldset>
+            <br>
+
+
+            <button type="submit"><img src="../buttons/buttonSubmit.png"></button>
+            <button type="reset" name="boton" id="boton"> <img src="../buttons/buttonReset.png"></button>
         </form>
 
-        <a class="centrado" href="../index.html#formulario"><img src="../icons/volver.png" alt="Volver" width="70" style="display: block; margin: auto;"></a>
+        <a class="centrado" href="../index.html#formulario"><img src="../icons/volver.png" alt="Volver" width="70"
+                style="display: block; margin: auto;"></a>
 
     </main>
 
