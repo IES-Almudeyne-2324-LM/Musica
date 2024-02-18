@@ -61,12 +61,18 @@ footer {
 }
 
 #flamenco {
-    background-color: rgb(95, 95, 95);
-    color: black;
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
 
+#form {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px; 
+}
 
 /* Estilos para textos de "encabezado" */
 h1 {
@@ -159,6 +165,13 @@ video {
     padding: 20px; 
 }
 
+.formulario {
+    background-color: rgb(200,200,200);
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    font-family: 'Reboto', sans-serif;
+}
 
 /* Estilos para la clase "centrado" */
 .centrado {
@@ -199,8 +212,5 @@ thead {
     background-color: #f2f2f2b7;
 }
 
-/* Estilos para el formulario */
-form {
-    background-color: rgb(201, 120, 120);
-}
+
 
