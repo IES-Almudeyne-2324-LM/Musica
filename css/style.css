@@ -141,10 +141,30 @@ video {
     max-width: 100%;
 }
 
+legend {
+    font-weight: bold;
+}
+
+fieldset {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+}
+
+label {
+    width: 160px; /* Ancho fijo para las etiquetas */
+    margin-right: 20px; /* Espacio entre la etiqueta y el control */
+}
+
+input {
+    margin-right: 20px; /* Espacio entre la etiqueta y el control */
+}
+
+
+
+
 .youtube {
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -179,6 +199,13 @@ video {
     justify-content: center;
     padding: 20px 0px;
 }
+
+/* Estilos para la clase "botonCentrado" */
+.botonCentrado {
+    display:flex;
+    justify-content: center;
+}
+
 
 /* Estilos para enlaces */
 a {

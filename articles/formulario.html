@@ -25,34 +25,31 @@
 
             <fieldset>
                 <legend>Datos Personales</legend>
-
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre" required><br>
-
-                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" required autofocus><br>
+                <br>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
                 <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required><br>
-
-                <label for="UserName">UserName</label>
+                <br>
+                <label for="UserName">UserName</label><br>
                 <input type="text" id="UserName" name="UserName" pattern="[a-zA-Z0-9]+"
                     placeholder="Solo letras y números" required><br>
-
-                <label for="clave">Contraseña:</label>
-                <input type="password" name="clave" id="clave" size="8" autocomplete="on" autofocus maxlength="10"
+                <br>
+                <label for="clave">Contraseña:</label><br>
+                <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10"
                     minlength="6" required> <br>
-
-                <label for="email">Indique su correo electronico:</label>
-                <input type="email" name="email" id="email" size="50" placeholder="correo@dominio.com/es" required> 
-                
-
-
-
+                <br>
+                <label for="email">Indique su correo electronico:</label><br>
+                <input type="email" name="email" id="email" size="35" placeholder="correo@dominio.com/es" required><br>
             </fieldset>
+           
             <br>
+           
             <fieldset>
                 <legend>Preferencias Musicales</legend>
 
                 <label for="range">Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
-
                 <label name="Flamenco"><i><strong>Flamenco</strong></i></label><br>
                 <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
                 <label name="Rap"><i><strong>Rap</strong></i></label><br>
@@ -109,14 +106,16 @@
                     </optgroup>
 
                 </select>
-
-
             </fieldset>
+           
             <br>
+           
             <fieldset>
                 <legend>Comentarios o aclaraciones</legend>
             </fieldset>
+
             <br>
+
             <fieldset>
                 <legend>Suscríbase a los géneros que le interesen:</legend>
 
@@ -148,9 +147,11 @@
             </fieldset>
             <br>
 
-
+            <div class="botonCentrado">
             <button type="submit"><img src="../buttons/buttonSubmit.png"></button>
-            <button type="reset" name="boton" id="boton"> <img src="../buttons/buttonReset.png"></button>
+            <button type="reset" name="boton" id="boton" class="botonCentrado"> <img src="../buttons/buttonReset.png"></button>
+            </div>
+            
         </form>
 
         <a class="centrado" href="../index.html#formulario"><img src="../icons/volver.png" alt="Volver" width="70"
