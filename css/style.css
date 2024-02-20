@@ -193,7 +193,7 @@ input {
     max-width: 800px; 
     margin: 0 auto; 
     padding: 20px; 
-    font-family: 'Reboto', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Estilos para la clase "centrado" */
@@ -240,6 +240,16 @@ th, td {
 /* Estilo para la cabecera de la tabla */
 thead {
     background-color: #f2f2f2b7;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 
