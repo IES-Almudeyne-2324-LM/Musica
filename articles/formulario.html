@@ -41,7 +41,7 @@
                 <br>
                 <label for="clave">Contraseña:</label><br>
                 <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10" minlength="6"
-                    required> <br>
+                placeholder="mínimo 6 caracteres - máximo 10 caracteres" required> <br>
                 <br>
                 <label for="email">Indique su correo electronico:</label><br>
                 <input type="email" name="email" id="email" placeholder="correo@dominio.com/es" required><br>
@@ -59,6 +59,8 @@
                 <input type="range" name="ra" id="ra" min="0" max="10" step="1"><br>
                 <label for="range"><i><strong>Rock</strong></i></label><br>
                 <input type="range" name="ro" id="ro" min="0" max="10" step="1"><br>
+
+                <br>
 
                 <label for="Lugar">Seleccione su zona de concierto:</label><br>
 
@@ -113,6 +115,11 @@
 
             <fieldset>
                 <legend>Comentarios o aclaraciones</legend>
+            
+                <label for="comentario">Deja tu mensaje<br></label>
+                <textarea name="comentario" id="comentario" rows="6" placeholder="Máximo 300 caracteres"></textarea><br/>
+            
+            
             </fieldset>
 
             <br>
