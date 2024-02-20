@@ -25,9 +25,9 @@
 
             <fieldset>
                 <legend>Datos Personales</legend>
-                
+
                 <label for="nombre">Nombre:</label><br>
-                <input type="text" name="nombre" id="nombre" size="25" required autofocus><br>
+                <input type="text" name="nombre" id="nombre" required autofocus><br>
                 <br>
                 <label for="apellidos">Apellidos:</label><br>
                 <input type="text" name="apellidos" id="apellidos" size="25" required><br>
@@ -37,34 +37,32 @@
                 <br>
                 <label for="UserName">UserName</label><br>
                 <input type="text" id="UserName" name="UserName" pattern="[a-zA-Z0-9]+"
-                    placeholder="Solo letras y números" size="25" required><br>
+                    placeholder="Solo letras y números" required><br>
                 <br>
                 <label for="clave">Contraseña:</label><br>
-                <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10"
-                    minlength="6" required> <br>
+                <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10" minlength="6"
+                    required> <br>
                 <br>
                 <label for="email">Indique su correo electronico:</label><br>
-                <input type="email" name="email" id="email" size="25" placeholder="correo@dominio.com/es" required><br>
+                <input type="email" name="email" id="email" placeholder="correo@dominio.com/es" required><br>
             </fieldset>
-           
+
             <br>
-           
+
             <fieldset>
                 <legend>Preferencias Musicales</legend>
 
-                <label for="range">Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
-                <label name="Flamenco"><i><strong>Flamenco</strong></i></label><br>
-                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
-                <label name="Rap"><i><strong>Rap</strong></i></label><br>
-                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
-                <label name="Rock"><i><strong>Rock</strong></i></label><br>
-                <input type="range" name="range" id="range" min="0" max="10" step="1"><br>
+                <label for="Rango">Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
+                <label><i><strong>Flamenco</strong></i></label><br>
+                <input type="range" nombre="flamenco" id="flamenco" min="0" max="10" step="1"><br>
+                <label><i><strong>Rap</strong></i></label><br>
+                <input type="range" nombre="Rap" id="Rap" min="0" max="10" step="1"><br>
+                <label><i><strong>Rock</strong></i></label><br>
+                <input type="range" nombre="Rock" id="Rock" min="0" max="10" step="1"><br>
 
-                <label for="Lugar">Seleccione su lugar:</label><br>
+                <label for="Lugar">Seleccione su zona de concierto:</label><br>
 
-                <select name="Lugar" id="Lugar">
-
-                    <option value="ov">Lugares</option>
+                <select name="Lugar" id="Lugar" size="5" multiple>
 
                     <optgroup label="Castilla y la Mancha">
 
@@ -106,13 +104,13 @@
                         <option value="B">Berlín</option>
                     </optgroup>
 
-                    </optgroup>
+                    
 
                 </select>
             </fieldset>
-           
+
             <br>
-           
+
             <fieldset>
                 <legend>Comentarios o aclaraciones</legend>
             
@@ -157,10 +155,11 @@
             <br>
 
             <div class="botonCentrado">
-            <button type="submit"><img src="../buttons/buttonSubmit.png"></button>
-            <button type="reset" name="boton" id="boton" class="botonCentrado"> <img src="../buttons/buttonReset.png"></button>
+                <button type="reset" name="boton" id="boton" class="botonCentrado"> <img
+                        src="../buttons/buttonReset.png" alt="Resetear"></button>
+                <button type="submit"><img src="../buttons/buttonSubmit.png" alt="Enviar"></button>
             </div>
-            
+
         </form>
 
         <a class="centrado" href="../index.html#formulario"><img src="../icons/volver.png" alt="Volver" width="70"
