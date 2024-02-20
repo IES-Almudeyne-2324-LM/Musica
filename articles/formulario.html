@@ -41,7 +41,7 @@
                 <br>
                 <label for="clave">Contraseña:</label><br>
                 <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10" minlength="6"
-                    required> <br>
+                placeholder="mínimo 6 caracteres - máximo 10 caracteres" required> <br>
                 <br>
                 <label for="telefono">Teléfono:</label><br>
                 <input type="tel" name="telefono" id="telefono"><br>
@@ -55,13 +55,13 @@
             <fieldset>
                 <legend>Preferencias Musicales</legend>
 
-                <label for="Rango">Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
-                <label><i><strong>Flamenco</strong></i></label><br>
-                <input type="range" nombre="flamenco" id="flamenco" min="0" max="10" step="1"><br>
-                <label><i><strong>Rap</strong></i></label><br>
-                <input type="range" nombre="Rap" id="Rap" min="0" max="10" step="1"><br>
-                <label><i><strong>Rock</strong></i></label><br>
-                <input type="range" nombre="Rock" id="Rock" min="0" max="10" step="1"><br>
+                <label>Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
+                <label for="range"><i><strong>Flamenco</strong></i></label><br>
+                <input type="range" name="flam" id="flam" min="0" max="10" step="1"><br>
+                <label for="range"><i><strong>Rap</strong></i></label><br>
+                <input type="range" name="ra" id="ra" min="0" max="10" step="1"><br>
+                <label for="range"><i><strong>Rock</strong></i></label><br>
+                <input type="range" name="ro" id="ro" min="0" max="10" step="1"><br>
 
                 <br>
 
