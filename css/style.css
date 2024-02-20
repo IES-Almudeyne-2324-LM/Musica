@@ -148,14 +148,12 @@ legend {
 fieldset {
     border-color: rgb(0, 0, 0);
     border-width: 3px;
-    padding: 5%;
     width: auto;
-    
 }
 
 label {
     width: 160px; /* Ancho fijo para las etiquetas */
-    margin-right: 20px; /* Espacio entre la etiqueta y el control */
+    margin-right: 10px; /* Espacio entre la etiqueta y el control */
 }
 
 input {
