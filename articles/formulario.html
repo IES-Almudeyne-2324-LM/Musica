@@ -43,6 +43,9 @@
                 <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10" minlength="6"
                     required> <br>
                 <br>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" name="telefono" id="telefono"><br>
+                <br>
                 <label for="email">Indique su correo electronico:</label><br>
                 <input type="email" name="email" id="email" placeholder="correo@dominio.com/es" required><br>
             </fieldset>
@@ -106,8 +109,6 @@
                         <option value="B">Berlín</option>
                     </optgroup>
 
-                    
-
                 </select>
             </fieldset>
 
@@ -118,8 +119,6 @@
             
                 <label for="comentario">Deja tu mensaje<br></label>
                 <textarea name="comentario" id="comentario" rows="6" placeholder="Máximo 300 caracteres"></textarea><br/>
-            
-            
             </fieldset>
 
             <br>
@@ -149,10 +148,22 @@
                 <label for="reggae">Reggae</label>
                 <br>
             </fieldset>
+            
             <br>
+            
             <fieldset>
                 <legend>Acepta los términos</legend>
+           
+                <input type="checkbox" name="terminos" id="terminos" value="acepta" required>
+                <label for="terminos">He leido y acepto los términos y condiciones de uso</label><br>
+                
+                <input type="checkbox" name="adulto" id="adulto" value="sí" required>
+                <label for="adulto">Soy mayor de edad</label><br>
+                
+                <input type="checkbox" name="suscripcion" id="suscripcion" value="activa">
+                <label for="suscripcion">Acepto la suscripción gratuita al boletín de noticias de música</label><br>
             </fieldset>
+            
             <br>
 
             <div class="botonCentrado">
