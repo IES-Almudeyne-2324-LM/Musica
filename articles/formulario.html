@@ -41,7 +41,7 @@
                 <br>
                 <label for="clave">Contraseña:</label><br>
                 <input type="password" name="clave" id="clave" size="8" autocomplete="on" maxlength="10" minlength="6"
-                placeholder="mínimo 6 caracteres - máximo 10 caracteres" required> <br>
+                    placeholder="Mínimo 6 caracteres - máximo 10 caracteres" required> <br>
                 <br>
                 <label for="telefono">Teléfono:</label><br>
                 <input type="tel" name="telefono" id="telefono"><br>
@@ -56,16 +56,16 @@
                 <legend>Preferencias Musicales</legend>
 
                 <label>Indique su preferencia musical (de 0 a 10, de 1 en 1):</label> <br>
-                <label for="range"><i><strong>Flamenco</strong></i></label><br>
+                <label for="flam"><i><strong>Flamenco</strong></i></label><br>
                 <input type="range" name="flam" id="flam" min="0" max="10" step="1"><br>
-                <label for="range"><i><strong>Rap</strong></i></label><br>
+                <label for="ra"><i><strong>Rap</strong></i></label><br>
                 <input type="range" name="ra" id="ra" min="0" max="10" step="1"><br>
-                <label for="range"><i><strong>Rock</strong></i></label><br>
+                <label for="ro"><i><strong>Rock</strong></i></label><br>
                 <input type="range" name="ro" id="ro" min="0" max="10" step="1"><br>
 
                 <br>
 
-                <label for="Lugar">Seleccione su zona de concierto:</label><br>
+                <label for="Lugar">Seleccione su zona de conciertos:</label><br>
 
                 <select name="Lugar" id="Lugar" size="5" multiple>
 
@@ -116,9 +116,10 @@
 
             <fieldset>
                 <legend>Comentarios o aclaraciones</legend>
-            
+
                 <label for="comentario">Deja tu mensaje<br></label>
-                <textarea name="comentario" id="comentario" rows="6" placeholder="Máximo 300 caracteres"></textarea><br/>
+                <textarea name="comentario" id="comentario" rows="6"
+                    placeholder="Máximo 300 caracteres"></textarea><br>
             </fieldset>
 
             <br>
@@ -148,22 +149,22 @@
                 <label for="reggae">Reggae</label>
                 <br>
             </fieldset>
-            
+
             <br>
-            
+
             <fieldset>
                 <legend>Acepta los términos</legend>
-           
+
                 <input type="checkbox" name="terminos" id="terminos" value="acepta" required>
                 <label for="terminos">He leido y acepto los términos y condiciones de uso</label><br>
-                
+
                 <input type="checkbox" name="adulto" id="adulto" value="sí" required>
                 <label for="adulto">Soy mayor de edad</label><br>
-                
+
                 <input type="checkbox" name="suscripcion" id="suscripcion" value="activa">
                 <label for="suscripcion">Acepto la suscripción gratuita al boletín de noticias de música</label><br>
             </fieldset>
-            
+
             <br>
 
             <div class="botonCentrado">
