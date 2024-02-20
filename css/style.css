@@ -148,6 +148,9 @@ legend {
 fieldset {
     border-color: rgb(0, 0, 0);
     border-width: 3px;
+    padding: 5%;
+    width: auto;
+    
 }
 
 label {
